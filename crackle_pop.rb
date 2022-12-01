@@ -1,4 +1,7 @@
 class CracklePop
+  # Returns an array of lines with the correct values, e.g.
+  #
+  #   ["1", "2", "Crackle", "4", ...]
   def self.generate_lines
     (1..100).map do |num|
       if num % 3 == 0 && num % 5 == 0
