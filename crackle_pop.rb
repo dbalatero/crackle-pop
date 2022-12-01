@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 class CracklePop
   # Returns an array of lines with the correct values, e.g.
   #
